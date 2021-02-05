@@ -5,15 +5,16 @@ import { COLORS } from "../constants";
 
 export const Nav = styled.nav`
   background: ${COLORS.light};
-  height: 70px;
-  ${"" /* margin-top: -70px; */}
+  height: 80px;
+  ${'' /* margin-top: -80px; */}
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
+  width: 100%;
   top: 0;
-  z-index: 10;
+  z-index: 1;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;

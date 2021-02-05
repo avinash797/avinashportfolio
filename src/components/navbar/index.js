@@ -17,24 +17,24 @@ const Navbar = ({toggle}) => {
     <div>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Avinash Joshi</NavLogo>
+          <NavLogo to="/">First UMC</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About Me</NavLinks>
+              <NavLinks to="about">About Us</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects</NavLinks>
+              <NavLinks to="projects">Services</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="skills">Skills</NavLinks>
+              <NavLinks to="skills">Organizations</NavLinks>
             </NavItem>
             
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/contact">Contact Me</NavBtnLink>
+            <NavBtnLink to="/contact">Contact Us</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

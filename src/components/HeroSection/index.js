@@ -25,8 +25,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Hi, I'm Avinash.</HeroH1>
-        <HeroP>I'm a Software Developer.</HeroP>
+        <HeroH1>Heading</HeroH1>
+        <HeroP>Sub Heading.</HeroP>
         <HeroBtnWrapper>
           <Button to="contact"
           onMouseEnter={onHover}
@@ -34,7 +34,7 @@ const HeroSection = () => {
           primary="true"
           dark="true"
           >
-            Hire Me {hover ? <ArrowForward /> : <ArrowRight />}
+            Contact Us {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

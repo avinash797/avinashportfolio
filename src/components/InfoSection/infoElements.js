@@ -4,6 +4,7 @@ import { COLORS } from "../constants";
 export const InfoContainer = styled.div`
   color: ${COLORS.light};
   background: ${({ lightBg }) => (lightBg ? COLORS.light : COLORS.dark)};
+  padding: 100px 0;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -13,7 +14,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 760px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -54,7 +55,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: ${COLORS.light};
+  color: ${({ lightText }) => (lightText ? COLORS.light : COLORS.dark)};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
