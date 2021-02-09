@@ -6,15 +6,14 @@ import { COLORS } from "../constants";
 export const Nav = styled.nav`
   background: ${COLORS.light};
   height: 80px;
-  ${'' /* margin-top: -80px; */}
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -99,7 +98,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: ${COLORS.dark};
+  background: ${COLORS.accent};
   white-space: nowrap;
   padding: 10px 22px;
   color: ${COLORS.light};
@@ -111,7 +110,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: ${COLORS.dark};
+    background: ${COLORS.dark};
+    color: ${COLORS.light};
   }
 `;

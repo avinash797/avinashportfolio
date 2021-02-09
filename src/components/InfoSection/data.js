@@ -10,13 +10,13 @@ export const homeObjOne = {
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
     alt: 'Car',
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: false    
 }
 
 export const homeObjTwo = {
-    id: 'about',
+    id: 'projects',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -33,10 +33,10 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id: 'skills',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Premium Bank',
     headline: 'Lorem lepajdhfjfhgja abgafjkdg bdafgbfagdgjda hafjkghdsg',
     description: 'Lorem lepajdhfjfhgja abgafjkdg bdafgbfagdgjda hafjkghdsg',
@@ -44,7 +44,7 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false    
+    dark: false,
+    primary: false,
+    darkText: true    
 }

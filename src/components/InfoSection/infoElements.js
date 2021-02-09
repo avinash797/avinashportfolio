@@ -3,7 +3,7 @@ import { COLORS } from "../constants";
 
 export const InfoContainer = styled.div`
   color: ${COLORS.light};
-  background: ${({ lightBg }) => (lightBg ? COLORS.light : COLORS.dark)};
+  background: ${({ lightBg }) => (lightBg ? COLORS.light : '#141414')};
   padding: 100px 0;
 
   @media screen and (max-width: 768px) {
@@ -72,7 +72,7 @@ export const Heading = styled.h1`
   color: ${({ lightText }) => (lightText ? COLORS.light : COLORS.dark)};
 
   @media screen and (max-width: 480px) {
-    font--size: 32px;
+    font-size: 32px;
   }
 `;
 
