@@ -32,6 +32,21 @@ const Services = () => {
           <ServicesH2>SportHub</ServicesH2>
           <ServicesP>Developed using Angular and .Net</ServicesP>
         </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>SportHub</ServicesH2>
+          <ServicesP>Developed using Angular and .Net</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>SportHub</ServicesH2>
+          <ServicesP>Developed using Angular and .Net</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>SportHub</ServicesH2>
+          <ServicesP>Developed using Angular and .Net</ServicesP>
+        </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
   );
